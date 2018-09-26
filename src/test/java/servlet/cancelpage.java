@@ -81,6 +81,8 @@ public class cancelpage extends HttpServlet {
 				{
 					out.println("class not found");
 					out.println("My Name is Manas");
+					out.println("My Name is hethth");
+					
 				}
 				}
 			catch(SQLException e)
