@@ -3,7 +3,7 @@ import java.io.*;
 import java.util.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
-
+import java.io.*;
 import java.sql.*;
 
 public class cancelpage extends HttpServlet {
@@ -80,6 +80,7 @@ public class cancelpage extends HttpServlet {
 				catch(ClassNotFoundException cnfe)
 				{
 					out.println("class not found");
+					out.println("My Name is Manas");
 				}
 				}
 			catch(SQLException e)
